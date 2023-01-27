@@ -1,0 +1,19 @@
+{
+  "name": "ecommerce-api",
+  "version": "1.0.0",
+  "description": "API for an Ecommerce platform where admin can manage product inventory",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "N Sarojini",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "mongoose": "^6.8.4"
+  }
+}
